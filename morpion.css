@@ -1,0 +1,39 @@
+body{
+  background-color: #4B0082;
+  text-align: center;
+  font-family: sans-serif;
+  color:#f9ca24;
+}
+#morpion{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  width:500px;
+  margin:auto;
+  transform: translateY(20%);
+
+}
+section{
+  border:3px solid #f9ca24;
+  padding: 20px 20px 20px;
+  border-radius: 15px;
+}
+.case{
+  border:3px solid #f9ca24;
+  height:150px;
+  line-height: 40px;
+  font-size: 60px;
+  border-radius: 15px;
+}
+.verification {
+  text-align: center;
+  font-size: 40px;
+
+}
+#verification {
+  color:green;
+  text-align: center;
+  font-size: 40px;
+}
+#copyright{
+  margin-top:200px;
+}
