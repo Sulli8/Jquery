@@ -12,6 +12,9 @@ body{
   transform: translateY(20%);
 
 }
+.mode {
+  font-size: 20px
+}
 section{
   border:3px solid #f9ca24;
   padding: 20px 20px 20px;
