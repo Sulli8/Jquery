@@ -1,22 +1,30 @@
 //On appelle la fonction qui permet le chargeent de la page
 $(function(){
   //on initialise le tableau qui permet le morpion
+  var j = 0;
   var morpion = ["#1","#2","#3","#4","#5","#6","#7","#8","#9"];
+  j++;
   for (var i = 0; i < morpion.length; i++) {
     //on appelle la fonction cliccase
+    j++;
     clicCase(morpion[i]);
   }
+
 function clicCase(selecteur){
   //on initialise le compteur de clic
-  var j = 0;
+
   $(selecteur).click(function(){
-    //on incrémente afin de compter le nombre de clic
     j++;
+    //on incrémente afin de compter le nombre de clic
+
     if(j%2 == 0){
       $(selecteur).html("<p>X</p>");
+      console.log(j);
       //on vérifie la lauer du clic
     }else{
+
       $(selecteur).html("<p>O</p>");
+      console.log(j);
     }
     //on vérifie sur les ligne sont égales
     if(
@@ -51,7 +59,7 @@ $("#3").text() == "O" && $("#6").text() == "O" && $("#9").text() == "O"
         location.reload();
       });
     }
-    
+
   });
 };
 
