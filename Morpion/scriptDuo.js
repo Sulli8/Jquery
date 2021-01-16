@@ -19,12 +19,10 @@ function clicCase(selecteur){
 
     if(j%2 == 0){
       $(selecteur).html("<p>X</p>");
-      console.log(j);
       //on vérifie la lauer du clic
     }else{
 
       $(selecteur).html("<p>O</p>");
-      console.log(j);
     }
     //on vérifie sur les ligne sont égales
     if(
