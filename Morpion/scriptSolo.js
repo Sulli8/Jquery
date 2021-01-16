@@ -17,6 +17,7 @@ function clicCase(selecteur){
     j++;
     //on incrémente afin de compter le nombre de clic
       $(selecteur).html("<p>X</p>");
+      patientez();
       setTimeout(function(){joueurOrdi(selecteur)},2000);
   });
 };
@@ -37,6 +38,13 @@ function joueurOrdi(selecteur){
     }
   }
 }
+function patientez(){
+    $("#patientez").text("Patientez...").fadeOut(1000,function(){
+      $("#patientez").fadeIn(1000,function(){
+        $("#patientez").remove();
+      });
+    });
+}
 
 function entierAleatoire(min, max)
 {
@@ -55,7 +63,7 @@ function coupDulapin(solutionOrdi,caseExterieur,selecteur){
       caseExterieurNonjouer.push(caseExterieur[i]);
     }
   }
-  
+
 }
 
 
