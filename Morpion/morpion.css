@@ -19,49 +19,49 @@ body{
   left:400px;
 }
 #ligne2{
-  top:500px;
+  top:525px;
   width:600px;
-  left:300px;
+  left:400px;
 }
 #ligne3{
-  top:650px;
+  top:682px;
   width:600px;
-  left:300px;
+  left:400px;
 }
 
 #colonne1{
   top:500px;
   transform: rotate(90deg);
   width:600px;
-  left:135px;
+  left:255px;
 }
 
 #colonne2{
   top:500px;
   transform: rotate(90deg);
   width:600px;
-  left:300px;
+  left:420px;
 }
 
 #colonne3{
   top:500px;
   transform: rotate(90deg);
   width:600px;
-  left:470px;
+  left:590px;
 }
 
 #diagonale1{
-  top:500px;
-  transform: rotate(-318deg);
+  top:538px;
+  transform: rotate(-317deg);
   width:600px;
-  left:300px;
+  left:428px;
 }
 
 #diagonale2{
-  top:500px;
-  transform: rotate(318deg);
+  top:538px;
+  transform: rotate(317deg);
   width:600px;
-  left:300px;
+  left:409px;
 }
 .accueil{
   background-color: #4B0082;
