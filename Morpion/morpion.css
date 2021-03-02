@@ -5,6 +5,64 @@ body{
   color:#f9ca24;
 }
 
+#gagne{
+  color:green;
+}
+#ligne1, #ligne2, #ligne3,#colonne1,#colonne2,#colonne3,#diagonale1,#diagonale2{
+  position:absolute;
+  visibility: hidden;
+  border:1px solid #f9ca24;
+}
+#ligne1{
+  top:370px;
+  width:600px;
+  left:400px;
+}
+#ligne2{
+  top:500px;
+  width:600px;
+  left:300px;
+}
+#ligne3{
+  top:650px;
+  width:600px;
+  left:300px;
+}
+
+#colonne1{
+  top:500px;
+  transform: rotate(90deg);
+  width:600px;
+  left:135px;
+}
+
+#colonne2{
+  top:500px;
+  transform: rotate(90deg);
+  width:600px;
+  left:300px;
+}
+
+#colonne3{
+  top:500px;
+  transform: rotate(90deg);
+  width:600px;
+  left:470px;
+}
+
+#diagonale1{
+  top:500px;
+  transform: rotate(-318deg);
+  width:600px;
+  left:300px;
+}
+
+#diagonale2{
+  top:500px;
+  transform: rotate(318deg);
+  width:600px;
+  left:300px;
+}
 .accueil{
   background-color: #4B0082;
   margin-top: 10px;

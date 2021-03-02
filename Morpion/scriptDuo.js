@@ -54,7 +54,7 @@ $("#3").text() == "O" && $("#6").text() == "O" && $("#9").text() == "O"
       //on affiche puis on efface le message
       $("#verification").animate({opacity:"0"},2000,function(){
         //Puis on recharge la page
-        location.reload();
+        location.reload(true);
       });
     }
 
